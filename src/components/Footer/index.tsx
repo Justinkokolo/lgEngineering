@@ -31,16 +31,19 @@ const Footer = () => {
                 <p className="mb-3 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   LG Engineering, pionnier dans le domaine des travaux en
                   hauteur, a su élargir ses horizons pour répondre aux défis
-                  d'un environnement professionnel en constante évolution.
+                  d&apos;un environnement professionnel en constante évolution.
                 </p>
                 <div className="mb-4 flex flex-col justify-center gap-3">
-                  <a href="tel:+27710662083" className="flex gap-3 items-center ">
+                  <a
+                    href="tel:+27710662083"
+                    className="flex items-center gap-3 "
+                  >
                     <FontAwesomeIcon icon={faPhone} className="text-lg" />
                     <span>+27 71 066 2083</span>
                   </a>
                   <a
                     href="mailto:lg-engineering2017@outlook.com"
-                    className="flex gap-3 items-center "
+                    className="flex items-center gap-3 "
                   >
                     <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
                     <span>Lg-engineering2017@outlook.com</span>
@@ -231,7 +234,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              &copy; 2024 LG Engineering. All rights reserved.
+              2024 LG Engineering. All rights reserved.
             </p>
           </div>
         </div>
