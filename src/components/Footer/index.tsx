@@ -35,11 +35,25 @@ const Footer = () => {
                 </p>
                 <div className="mb-4 flex flex-col justify-center gap-3">
                   <a
+                    href="tel:021 109 3597"
+                    className="flex items-center gap-3 "
+                  >
+                    <FontAwesomeIcon icon={faPhone} className="text-lg" />
+                    <span>021 109 3597</span>
+                  </a>
+                  <a
                     href="tel:+27710662083"
                     className="flex items-center gap-3 "
                   >
                     <FontAwesomeIcon icon={faPhone} className="text-lg" />
                     <span>+27 71 066 2083</span>
+                  </a>
+                  <a
+                    href="mailto:info@lgengineeringservices.com"
+                    className="flex items-center gap-3 "
+                  >
+                    <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
+                    <span>info@lgengineeringservices.com</span>
                   </a>
                   <a
                     href="mailto:lg-engineering2017@outlook.com"
